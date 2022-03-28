@@ -10,3 +10,12 @@ On the one hand, games are super unnecessary. On the other, as the philosopher B
 Similarly, as the journalist Oliver Roeder argues, in *[Seven Games: A Human History](https://www.nytimes.com/2022/01/25/books/review/seven-games-oliver-roeder.html)*, games play a pivotal role in human culture, as evidence of games exists going back 5000 years. So, perhaps teaching a computer to play a game is a worthwhile end in and of itself. At the same time, when AIs can play games--and better than humans--what's the point of playing anymore? Or is winning besides the point? (I will certainly never solve a Rubik's Cube as fast as the fastest robot, but it was still incredibly meaningful to learn to solve the puzzle.)
 
 This is all to say that I can't give a definitive answer to the question of whether this use of a neural net is necessary, or useful. It seems marginally ethical--in that it's not doing harm, beyond the normal harm that neural nets do, with their massive consumption of electricity. It's not training robots to harm humans, but it's also not really helping anyone either. (Certainly, for the people who designed the program, I imagine this was tremendously fun.)
+
+My replies to others' posts:
+
++ Response to Iulian's post on facial reconigition software:
+`` `I think this is sort of like Pandora's box, in that it will lead to all sorts of unexpected consequences. @Peter Tsun I think the protestors in Hong Kong already found such a solution--they wore masks and/or carried umbrellas to avoid facial recognition cameras!` ``
++ Response to Peter's post on manufacturing:
+`` `One thing I wonder after reading this is whether or not such an application of AI will lead to a future where jobs that might otherwise be tedious or dangerous for humans are automated, in a way that frees us up to do more creative and fulfilling work, or whether this will lead to such a dearth of jobs for many workers that social unrest results. What do you think?` ``
++ Response to Tiffany's post on medical imaging:
+`` `This seems like an incredibly high potential area of neural net applications--I wonder whether this will become something that slowly replaces certain functions now carried out by humans (in yet another cost-cutting measure by hospitals) or whether it will be used responsibly as a tool that human professionals choose how to use in certain circumstances.` ``
