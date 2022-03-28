@@ -1,3 +1,5 @@
+//note: you can also access the code below in the p5.js site here: https://editor.p5js.org/ischeff/sketches/uNrlXhV4d
+
 class Perceptron {
 
   // parameter is number of inputs
