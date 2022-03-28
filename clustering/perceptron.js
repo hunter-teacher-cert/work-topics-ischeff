@@ -40,10 +40,10 @@ class Perceptron {
   // finish training function for homework
   train(inputs, desired){
     // store result of feed forward here
-  // let guess =
+  let guess = this.feedForward(inputs);
 
     // error is difference between desired result and guess
-  // let error =
+  let error = desired - guess;
 
     // adjust all weights by adding learning rate times error times inputs
     // weight1 + learningRate*error*input1
