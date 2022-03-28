@@ -14,8 +14,8 @@ This is all to say that I can't give a definitive answer to the question of whet
 My replies to others' posts:
 
 + Response to Iulian's post on facial reconigition software:
-`` `I think this is sort of like Pandora's box, in that it will lead to all sorts of unexpected consequences. @Peter Tsun I think the protestors in Hong Kong already found such a solution--they wore masks and/or carried umbrellas to avoid facial recognition cameras!` ``
+`` I think this is sort of like Pandora's box, in that it will lead to all sorts of unexpected consequences. @Peter Tsun I think the protestors in Hong Kong already found such a solution--they wore masks and/or carried umbrellas to avoid facial recognition cameras! ``
 + Response to Peter's post on manufacturing:
-`` `One thing I wonder after reading this is whether or not such an application of AI will lead to a future where jobs that might otherwise be tedious or dangerous for humans are automated, in a way that frees us up to do more creative and fulfilling work, or whether this will lead to such a dearth of jobs for many workers that social unrest results. What do you think?` ``
+`` One thing I wonder after reading this is whether or not such an application of AI will lead to a future where jobs that might otherwise be tedious or dangerous for humans are automated, in a way that frees us up to do more creative and fulfilling work, or whether this will lead to such a dearth of jobs for many workers that social unrest results. What do you think? ``
 + Response to Tiffany's post on medical imaging:
-`` `This seems like an incredibly high potential area of neural net applications--I wonder whether this will become something that slowly replaces certain functions now carried out by humans (in yet another cost-cutting measure by hospitals) or whether it will be used responsibly as a tool that human professionals choose how to use in certain circumstances.` ``
+`` This seems like an incredibly high potential area of neural net applications--I wonder whether this will become something that slowly replaces certain functions now carried out by humans (in yet another cost-cutting measure by hospitals) or whether it will be used responsibly as a tool that human professionals choose how to use in certain circumstances. ``
