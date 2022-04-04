@@ -38,7 +38,22 @@ The problem is that the program doesn't properly compute the final operation, in
 
 The problem, in essence, is that the "SUB 99" command is telling the computer to subtract whatever is stored in the 99th mailbox from the input in the accumulator, when it should instead be subtracting whatever is in the accumulator from whatever is in the 99th mailbox.
 
-One way around this is to
+One way around this is to store the third input in a *different* mailbox, then swap out what's in the accumulator for what's in the 99th mailbox. That way, when you subtract, you are subtracting the third input from the sum of the first two inputs and not the other way around, like so:
+
+```
+INP
+STA 99
+INP
+ADD 99
+STA 99
+INP
+STA 98
+LDA 99
+SUB 98
+OUT
+HLT
+
+```
 
 
 2. Next, you’ll write your own LMC program.  *Hint*: Build your program up one step at a time, like any other coding task. Implement your program on an LMC simulator like this one.
