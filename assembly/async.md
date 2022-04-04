@@ -5,7 +5,8 @@ Assembly and machine languages
 
 1. The following LMC program is supposed to add two input numbers, add them, subtract the third input from the sum, and output the result, i.e. OUT = IN1 + IN2 -- IN3.
   *numeric code*
-  ```901
+  ```
+  901
   399
   901
   199
@@ -13,7 +14,8 @@ Assembly and machine languages
   901
   299
   902
-  000```
+  000
+  ```
 Your task:
 Convert from numeric into mnemonic code. A helpful guide the the LMC instruction set can be found HERE.
 The program doesn’t work as intended.  Identify what’s wrong with the program as is.
@@ -21,6 +23,7 @@ Modify the program so that it works correctly. Include your code
 
 ---
 In mnemonic code, the above is:
+  ```
   INP
   STA 99
   INP
@@ -30,6 +33,7 @@ In mnemonic code, the above is:
   SUB 99
   OUT
   HLT
+  ```
 
 
 
