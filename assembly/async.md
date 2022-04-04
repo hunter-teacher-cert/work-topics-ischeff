@@ -59,3 +59,20 @@ HLT
 2. Next, you’ll write your own LMC program.  *Hint*: Build your program up one step at a time, like any other coding task. Implement your program on an LMC simulator like this one.
 
 *mild*: Write an LMC program that takes two inputs and produces the larger of the two values as an output
+
+```
+00 INP
+01 STA 99
+02 INP
+03 STA 98
+04 SUB 99
+05 BRP 9
+06 LDA 99
+07 OUT
+08 HLT
+09 LDA 98
+10 OUT
+11 END
+```
+
+Note: the above program attempts to use the "BRP" command, which--as the provided resource indicates--allow us to "Branch" the program, much like a conditional statement! 
