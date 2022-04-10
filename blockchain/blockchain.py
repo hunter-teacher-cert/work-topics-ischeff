@@ -74,11 +74,11 @@ if __name__ == "__main__":
 # STEP 2 print the empty chain that has the genesis block with proof =100
     print(chain.chain) #need to use .chain, otherwise you print the memory address of the object
 # STEP 3 initiate the first transation of 1BTC from ___ to ___ by calling the new_transaction() on the object
-
+    chain.new_transaction("Ian", "Eric", 1000)
 # STEP 4 add the new block to the chain using the new_block() by passing a proof argument for each
-
+    chain.new_block(proof1)
 # STEP 5 Print the chain with the new changes
-
+    print(chain.chain)
 # STEP 6 Repeat steps 3-5 to record two more transactions
 
 #Note:(optional) You may add any formating sybmols to show how the chain looks at each phase
