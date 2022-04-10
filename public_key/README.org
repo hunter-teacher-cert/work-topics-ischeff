@@ -1,3 +1,5 @@
-* Last Name:
-* First Name:
+* Last Name: Scheffler
+* First Name: Ian
+
+Note: this directory includes a PDF of the encryption/decryption HW, as well as the async assignment, and the code used to check the encryption/decryption HW. 
 
