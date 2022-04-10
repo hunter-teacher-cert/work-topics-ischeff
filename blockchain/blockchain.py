@@ -80,5 +80,10 @@ if __name__ == "__main__":
 # STEP 5 Print the chain with the new changes
     print(chain.chain)
 # STEP 6 Repeat steps 3-5 to record two more transactions
-
+    chain.new_transaction("Eric", "Ian", 100)
+    chain.new_block(proof2)
+    print(chain.chain)
+    chain.new_transaction("Ian", "Iulian", 50)
+    chain.new_block(proof3)
+    print(chain.chain)
 #Note:(optional) You may add any formating sybmols to show how the chain looks at each phase
