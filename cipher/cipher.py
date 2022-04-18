@@ -20,7 +20,11 @@ def encrypt(text,s):
     else:
     # Async Work: Encrypt lowercase characters in plain text
     # convert letter into unicode
-    # make a unicode 0 by subtracting
+    # make a unicode 0 by subtracting 97
+    # add shift
+    # allow wraparound by mod 26
+    # move a's unicode 97 again by adding 97
+    # convert unicode to letter
       result += chr((ord(char) - 97 + s) % 26 + 97)
   return result
 
@@ -33,7 +37,7 @@ print("Shift pattern : " + str(s))
 print("Encrypted Text: " + encrypt(text,s))
 
 #Homework Bell Pepper Version: Write a function that decrypts a symmetric cipher with a given shift
-text = " "
+text = "BAba"
 s = 27
 
 def decrypt(text,s):
