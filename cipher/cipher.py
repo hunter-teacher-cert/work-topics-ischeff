@@ -19,7 +19,9 @@ def encrypt(text,s):
       result += chr((ord(char) - 65 + s) % 26 + 65)
     else:
     # Async Work: Encrypt lowercase characters in plain text
-      result += "replace me with code"
+    # convert letter into unicode
+    # make a unicode 0 by subtracting
+      result += chr((ord(char) - 97 + s) % 26 + 97)
   return result
 
   #enter alphabetic text without spaces and a desired shift
