@@ -1,4 +1,4 @@
 * Last Name: Scheffler
 * First Name: Ian
-Note: the bellpepper.py file contains BOTH the HW and the async!
+Note: the cipher.py file contains BOTH the HW and the async (bellpepper version of HW)!
 
