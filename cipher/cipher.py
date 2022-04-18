@@ -37,11 +37,18 @@ print("Shift pattern : " + str(s))
 print("Encrypted Text: " + encrypt(text,s))
 
 #Homework Bell Pepper Version: Write a function that decrypts a symmetric cipher with a given shift
-text = "BAba"
+text = "BAba" # made this the same text I just encrypted so it's easy to check if it decrypts correctly
 s = 27
 
 def decrypt(text,s):
   result = ""
+  for i in range(len(text)):
+      char = text[i]
+      #traverse the encrypted text
+      if(char.isupper()):
+          result += ord(char)
+      else:
+          result+= ord(char)
   return result
 
 print("Encrypted Text : " + text)
