@@ -44,11 +44,25 @@ def decrypt(text,s):
   result = ""
   for i in range(len(text)):
       char = text[i]
-      #traverse the encrypted text
+      # traverse the encrypted text
       if(char.isupper()):
-          result += ord(char)
+          # Decrypt uppercase characters in plain text
+          # convert letter into unicode
+          # make A unicode 0 by subtracting 65
+          # SUBTRACT shift
+          # allow wraparound by mod 26
+          # make A's unicode 65 again by adding 65
+          # convert unicode to letter
+          result += chr((ord(char) - 65 - s) % 26 + 65)
       else:
-          result+= ord(char)
+          # Decrypt lowercase characters in plain text
+          # convert letter into unicode
+          # make a unicode 0 by subtracting 97
+          # SUBTRACT shift
+          # allow wraparound by mod 26
+          # move a's unicode 97 again by adding 97
+          # convert unicode to letter
+          result+= chr((ord(char) - 97 - s) % 26 + 97)
   return result
 
 print("Encrypted Text : " + text)
