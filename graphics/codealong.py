@@ -92,6 +92,9 @@ while True:
 
 # HW- Complete connectind the lines
   connect_points(0, 1, points)
+  connect_points(1, 2, points)
+  connect_points(2, 3, points)
+  connect_points(3, 0, points)
 
 
   # don't change, allows you to quit preview
