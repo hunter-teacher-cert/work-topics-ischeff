@@ -1,3 +1,4 @@
+# note: this has been modified to create a pyramid instead of a cube
 import pygame as pg
 from math import sin, cos
 
@@ -10,15 +11,14 @@ projection_matrix = [[1,0,0],
                     [0,1,0],
                     [0,0,0]]
 
-# makes a list of size 8 for the 8 points in a cube
-# enter all the vertices of our cube into each index(do not change!)
+# makes a list of size 5 for the 5 points in a pyramid
 #TODO: YOU WILL HAVE TO CHANGE THE POINTS BASED ON THE SHAPE YOU ARE CREATING
-cube_points = [n for n in range(5)]
-cube_points[0] = [[0],[0],[1]]
-cube_points[1] = [[-1],[-1],[-1]]
-cube_points[2] = [[1],[-1],[-1]]
-cube_points[3] = [[1],[1],[-1]]
-cube_points[4] = [[-1],[1],[-1]]
+pyramid_points = [n for n in range(5)]
+pyramid_points[0] = [[0],[0],[1]]
+pyramid_points[1] = [[-1],[-1],[-1]]
+pyramid_points[2] = [[1],[-1],[-1]]
+pyramid_points[3] = [[1],[1],[-1]]
+pyramid_points[4] = [[-1],[1],[-1]]
 
 
 # Let's do matrix multiplication! This allows us to convert our 3d points into a 2d array
@@ -70,10 +70,10 @@ while True:
 
 
 
-  points = [0 for _ in range(len(cube_points))]
+  points = [0 for _ in range(len(pyramid_points))]
   i=0
 
-  for point in cube_points:
+  for point in pyramid_points:
     rotate_x = multiply_m(rotation_x, point)
     rotate_y = multiply_m(rotation_y, rotate_x)
     rotate_z = multiply_m(rotation_z, rotate_y)
@@ -87,8 +87,7 @@ while True:
     i += 1
     pg.draw.circle(window, (255, 0, 0), (x,y), 5)
 
-# HW- Finishing connecting the points of the cube.
-    # connect the vertex of the pyramid to the corners of the base
+  # connect the vertex of the pyramid to the corners of the base
   connect_points(0, 1, points)
   connect_points(0, 2, points)
   connect_points(0, 3, points)
