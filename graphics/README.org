@@ -1,3 +1,4 @@
 * Last Name: Scheffler
 * First Name: Ian
 
+Note: the "codealong" file contains the first HW assignment (extending the lines of the cube between each point in the cube." The other file, "homework", contains my attempt to visualize a pyramid using the starter code. 
