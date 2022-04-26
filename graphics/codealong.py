@@ -91,10 +91,21 @@ while True:
     pg.draw.circle(window, (255, 0, 0), (x,y), 5)
 
 # HW- Complete connectind the lines
+  # one side (a square)
   connect_points(0, 1, points)
   connect_points(1, 2, points)
   connect_points(2, 3, points)
   connect_points(3, 0, points)
+  # connecting to the other side (lines)
+  connect_points(0, 4, points)
+  connect_points(1, 5, points)
+  connect_points(2, 6, points)
+  connect_points(3, 7, points)
+  # the other side (a square)
+  connect_points(4, 5, points)
+  connect_points(5, 6, points)
+  connect_points(6, 7, points)
+  connect_points(7, 4, points)
 
 
   # don't change, allows you to quit preview
