@@ -88,7 +88,10 @@ while True:
     pg.draw.circle(window, (255, 0, 0), (x,y), 5)
 
 # HW- Finishing connecting the points of the cube.
-  # connect_points(0, 1, points)
+  connect_points(0, 1, points)
+  connect_points(0, 2, points)
+  connect_points(0, 3, points)
+  connect_points(0, 4, points)
 
 
   # don't change, allows you to quit preview
