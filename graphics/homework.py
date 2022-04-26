@@ -14,7 +14,7 @@ projection_matrix = [[1,0,0],
 # enter all the vertices of our cube into each index(do not change!)
 #TODO: YOU WILL HAVE TO CHANGE THE POINTS BASED ON THE SHAPE YOU ARE CREATING
 cube_points = [n for n in range(5)]
-cube_points[0] = [[0],[0],[0]]
+cube_points[0] = [[0],[0],[1]]
 cube_points[1] = [[-1],[-1],[-1]]
 cube_points[2] = [[1],[-1],[-1]]
 cube_points[3] = [[1],[1],[-1]]
