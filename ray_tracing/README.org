@@ -1,3 +1,10 @@
-* Last Name:
-* First Name:
+* Last Name: Scheffler
+* First Name: Ian
 
+Note: the HW problems are represented here by two JS files, but I've also included a link to the real.it below where you can run them and see the results more easily! 
+
+Problem #1 (Making traffic lights):
+https://replit.com/@ischeff/raytracer-js#examples/hunter.js
+
+Problem #2 (Lighting them from the rear):
+https://replit.com/@ischeff/raytracer-js#examples/hunter2.js
