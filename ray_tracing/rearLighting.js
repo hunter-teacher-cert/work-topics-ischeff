@@ -69,7 +69,7 @@ var sphere3 = new Sphere(
 
 // lights
 var light1 = new Sphere(
-    new Vector3(7, 6, -21), // center
+    new Vector3(8, 6, -21), // center
     1, // radius
     new Material(
         new Vector3(0,0,0), // color
@@ -80,7 +80,7 @@ var light1 = new Sphere(
 );
 
 var light2 = new Sphere(
-    new Vector3(-7, 6, -21), // center
+    new Vector3(-8, 6, -21), // center
     1, // radius
     new Material(
         new Vector3(0,0,0), // color
